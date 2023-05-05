@@ -1,0 +1,48 @@
+div {
+    margin: 0.01px;
+}
+
+.vermelho1 {
+    background-color: red;
+        display: inline-block;
+        border: 1px solid black;
+        margin: -2.3px;
+        width: 200px;
+        height: 200px;       
+}
+
+.vermelho {
+    background-color: red;
+        display: inline-block;
+        border: -1px solid black;
+        margin: -1.6px;
+        width: 200px;
+        height: 200px;       
+}
+
+.azul {
+    background-color: rgb(0, 128, 255);
+        display: inline-block;
+        border: -1px solid black;
+        margin: -1.6px;
+        width: 200px;
+        height: 200px;       
+}
+
+.verde {
+    background-color: rgb(32, 166, 63);
+        display: inline-block;
+        border: -1px solid black;
+        margin: -1.6px;
+        width: 200px;
+        height: 200px;        
+}
+
+.amarelo {
+    background-color: rgb(245, 241, 1);
+        display: inline-block;
+        border: -1px solid black;
+        margin: -1.6px;
+        width: 200px;
+        height: 200px;        
+}
