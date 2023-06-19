@@ -1,0 +1,297 @@
+/*Cabeçalho página 1 (index)*/
+#pg1 {
+    position: static;
+    top: 0;
+    text-align: center;
+    background-image: url(https://pyxis.nymag.com/v1/imgs/b76/30b/3f10d4742dea5289d8ebfcfd42b9f34b6e-07-mad-men-s7poster.2x.h473.w710.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-top: -70px;
+    background-position: start;
+    background-repeat: no-repeat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*Cabeçalho página 3*/
+#pg3 {
+    position: relative;
+    background-image: url(https://arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/VGH3NX4E6FFQ32LQL3RW2NUUW4.jpg);
+    background-size: cover;
+    height: 500px;
+    margin-top: -70px;
+    background-position: start;
+    background-repeat: no-repeat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: flex-end;
+}
+
+/*Título pg.3*/
+.container3 {
+    position: absolute bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/*Cabeçalho pg.4*/
+#pg4 {
+    text-align: center;
+    background-image: url("/Imagens/article-2599678-1CEFC27C00000578-758_634x393.jpg");
+    background-size: cover;
+    height: 500px;
+    margin-top: -70px;
+    background-position: start;
+    background-repeat: no-repeat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subtítulo {
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/*Sub-cabeçalho pg.01*/
+#detalhe {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Texto das personagens*/
+#conteúdo {
+    text-align: justify;
+    margin: 50px;
+}
+
+#conteúdocenter {
+    text-align: center;
+    margin: 50px;
+}
+
+pre {
+    margin-left: -50px;
+    text-align: center;
+}
+
+
+/*Menu vertical*/
+#container1 {
+    background-color: white;
+    display: flex;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+}
+
+.Menu a {
+    background-color: rgb(210, 27, 27);
+    color: black;
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.Menu a:hover {
+    background-color: rgb(155, 146, 146);
+}
+
+.Menu a:active {
+    background-color: bisque;
+}
+
+/*Menu horizontal*/
+#container2 {
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-left: 50px;
+    border-radius: 10px;
+    width: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.Menu2 a {
+    background-color: rgb(210, 27, 27);
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+       
+}
+
+.menu2, .Menu2 {
+    display: inline;
+}
+
+.Menu2 a:hover {
+    background-color: rgb(155, 146, 146);
+}
+
+.Menu2 a:active {
+    background-color: bisque;
+}
+
+.subtítulo2 {
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(221, 218, 203);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtítulo3 {
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(175, 51, 16);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*Trailer pg.01*/
+#video {
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/*Contato redes sociais*/
+.iconeredes {
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    margin: 2px;
+    display: inline-block;
+}
+
+#mapa {
+    text-align: center;
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(196, 205, 210);
+}
+
+/*Formatação dos textos do corpo*/
+div {
+    text-align: justify;
+    word-wrap: break-all;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+/*Formatação galeria de fotos pg. 01*/
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+}
+
+.Galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.Galeria img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(191, 12, 12);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    color: rgb(71, 66, 66);
+    text-align: center;
+    clear: left;
+    clear: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+/*Container das informações e história*/
+#ladoalado {
+    display: flex;
+    margin: 70px;
+}
+
+/*Desenho flutuante esquerda pg. 02 e 03*/
+#ilustra {
+    float: left;
+    border-radius: 10px;
+}
+
+/*Conteúdo flutuante direita pg. 02 e 03*/
+#info {
+    text-align: justify;
+    margin: 50px;
+    float: right;
+}
+
+/*Container das informações e história*/
+#ladoalado2 {
+    margin: 70px;
+    overflow: hidden;
+}
+
+/*Conteúdo flutuante esquerda pg. 03*/
+#info2 {
+    text-align: justify;
+    margin-right: 100px;
+
+}
+
+/*Desenho flutuante direita pg. 03*/
+#ilustra2 {
+    float: right;
+    border-radius: 10px;
+    margin-left: 50px;
+    max-width: auto;
+}
+
+/*Conteúdo abaixo da imagem pg.04*/
+#hist {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    max-width: auto;
+}
+
+footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+}
+
+/*Alinhar imagem e texto rodapé*/
+h5, img {
+    display: inline;
+}
